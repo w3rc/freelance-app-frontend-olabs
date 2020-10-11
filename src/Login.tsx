@@ -7,11 +7,12 @@ function Login() {
   return (
     <div className="login">
       {/* <Link to=""></Link> */}
-
-      <img
-        className="login__background"
-        src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/everything-from-london-collage-of-typical-images-of-the-city-and-history-roger-vandeber.jpg"
-      />
+      <div>
+        <img
+          className="login__background"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/everything-from-london-collage-of-typical-images-of-the-city-and-history-roger-vandeber.jpg"
+        />
+      </div>
 
       <div className="login__container">
         <h1>Sign-in</h1>
