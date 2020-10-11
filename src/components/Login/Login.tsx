@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import "./Login.scss";
 import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
 
@@ -11,6 +11,7 @@ function Login() {
         <img
           className="login__background"
           src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/everything-from-london-collage-of-typical-images-of-the-city-and-history-roger-vandeber.jpg"
+          alt='background'
         />
       </div>
 

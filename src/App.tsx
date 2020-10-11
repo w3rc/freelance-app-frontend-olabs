@@ -1,11 +1,20 @@
 import React from "react";
-import "./App.css";
-import Login from "./Login";
+
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
+
+import store from './store/store';
+import "./App.scss";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
     <div className="app">
-      <Login />
+      <Provider store={store}>
+        <Router>
+          <Login />
+        </Router>
+      </Provider>
     </div>
   );
 }
